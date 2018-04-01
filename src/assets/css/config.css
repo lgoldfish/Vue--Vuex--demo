@@ -1,0 +1,209 @@
+.config {
+  display: inline-block;
+  /*width: 710px;*/
+}
+
+.preView {
+  margin-left: 100px;
+  margin-top: 45px;
+  display: inline-block;
+}
+
+.preViewBox {
+  padding: 10px;
+  border: 1px dashed #9098B8;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.preViewBox iframe {
+  width: 336px;
+  height: 528px;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.appTitle {
+  background: url(../images/title@2x.png);
+  width: 336px;
+  background-size: 336px auto;
+  background-repeat: no-repeat;
+  height: 70px;
+}
+
+.appTitle h2 {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 70px;
+  text-align: center;
+}
+
+.preRefresh {
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: top;
+  width: 26px;
+  height: 26px;
+  background: url(../images/refreshicon.png);
+  cursor: pointer;
+  box-shadow: 3px 3px 3px #888888;
+}
+
+.centerLine {
+  width: 2px;
+  height: 590px;
+  background-color: #D5DBE7;
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.configContent {
+  /*float: right;*/
+  vertical-align: top;
+  margin-top: 110px;
+  display: inline-block;
+}
+
+.configContent h2 {
+  font-family: "PingFangSC-Regular";
+  font-size: 20px;
+  color: #3E4455;
+  letter-spacing: 0;
+}
+
+.configContent form label {
+  font-family: "PingFangSC-Regular";
+  font-size: 14px;
+  color: #9098B8;
+  letter-spacing: 0;
+}
+
+.configContent form input,
+.configContent form select {
+  border: 1px solid #DCE2EE;
+  border-radius: 2px;
+  display: inline-block;
+  height: 32px;
+  text-indent: 10px;
+  font-family: "PingFangSC-Regular";
+  font-size: 14px;
+  color: #12335A;
+  letter-spacing: 0;
+  line-height: 32px;
+  margin-top: 10px;
+  width: 160px;
+  box-sizing: border-box;
+}
+
+#applyName {
+  width: 139px;
+}
+
+.configContent form select {
+  width: 139px;
+}
+
+.configContent form ul {
+  height: 84px;
+  margin-top: 15px;
+}
+
+.configContent form ul li {
+  width: 100px;
+  height: 32px;
+  float: left;
+  font-family: "PingFangSC-Regular";
+  font-size: 14px;
+  color: #9098B8;
+  letter-spacing: 0;
+  line-height: 32px;
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #DCE2EE;
+  cursor: pointer;
+}
+
+.configContent form ul li:nth-of-type(4) {
+  clear: both;
+}
+
+.configContent form button {
+  background: #46A5F2;
+  border-radius: 2px;
+  outline: none;
+  border: 0;
+  width: 120px;
+  height: 32px;
+  font-family: "PingFangSC-Regular";
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 32px;
+  text-align: center;
+  margin-top: 40px;
+  display: block;
+  cursor: pointer;
+}
+
+#angle1,
+#angle2 {
+  width: 112px;
+}
+
+.el-input-number__decrease,
+.el-input-number__increase {
+  height: 31px;
+  top: 10px;
+}
+
+.el-input__inner {
+  padding: 0;
+  width: 150px;
+}
+
+.el-input-number .el-input__inner {
+  padding: 0;
+}
+
+.el-input-number {
+  width: 160px!important;
+}
+
+.el-input-number {
+  display: inline-block;
+  width: 160px;
+  position: relative;
+}
+
+.configContent form .reset {
+  font-family: "PingFangSC-Regular";
+  font-size: 12px;
+  color: #9098B8;
+  letter-spacing: 0;
+  width: 64px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  background: #FFFFFF;
+  border: 1px solid #DCE2EE;
+  border-radius: 2px;
+  margin-left: 10px;
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.active {
+  background: #46A5F2;
+  color: #FFFFFF!important;
+}
+
+.el-input-number__decrease,
+.el-input-number__increase {
+  top: 11px!important;
+  line-height: 30px!important;
+}

@@ -1,0 +1,41 @@
+.thisProject {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    min-height: 750px;
+    padding-top: 20px;
+}
+
+.thisProject .leftNav {
+    width: 200px;
+    height: 710px;
+    float: left;
+    border-right: 1px solid #DCE2EE;
+}
+
+.thisProject .rightContent {
+    float: left;
+}
+
+.leftNav ul li {
+    text-indent: 69px;
+    font-family: "PingFangSC-Regular";
+    font-size: 14px;
+    color: #6E768F;
+    line-height: 42px;
+}
+
+.projectName {
+    text-indent: 33px!important;
+    font-family: "PingFangSC-Regular";
+    font-size: 14px;
+    color: #9098B8;
+}
+.thisProjectNav {
+	background: #EFF7FE!important;
+	color: #6EBAF6!important;
+}
+.projectName  img {
+    margin-right: 10px;
+    vertical-align: middle;
+}

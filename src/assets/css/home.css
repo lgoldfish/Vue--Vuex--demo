@@ -1,0 +1,78 @@
+.header {
+	height: 60px;
+	background-color: #12335A;
+	color: #ffffff;
+	line-height: 60px;
+	margin-bottom: 20px;
+}
+.headerContainer {
+	width: 1200px;
+	margin: 0 auto;
+}
+.headerContainer>span {
+	display: inline-block;
+	width: 110px;
+}
+.headerContainer>span , .headerContainer ul  {
+	float: left;
+}
+.headerContainer>span  span {
+	font-size: 16px;
+	color: #FFFFFF;
+}
+.headerContainer>span img {
+	vertical-align: middle;
+}
+.headerContainer ul  {
+	margin-left: 90px;
+}
+.headerContainer ul li {
+	float: left;
+	cursor: pointer;
+	width: 120px;
+	font-size: 14px;
+	color: #B8C0CA;
+	text-align: center;
+}
+.headerContainer ul li:nth-of-type(2) {
+	margin-left: 30px;
+} 
+.headerContainer ul li img {
+	width: 20px;
+	height: 20px;
+	transform: translateY(4px);
+	margin-right: 4px;
+}
+#secondImage {
+	width: 25px;
+	height: 25px;
+}
+.headerContainer p {
+	float: right;
+	color: #B8C0CA;
+	font-size: 14px;
+}
+#loginOut {
+	width: 35px;
+	height: 20px;
+	display: inline-block;
+	float: right;
+	line-height: 60px;
+	margin-left: 30px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+	transform: translateY(21px);
+	cursor: pointer;
+	font-size: 14px;
+	color: #B8C0CA;
+	text-decoration:underline;
+}
+.navActive {
+	background: #092546;
+	color: #FFFFFF!important;
+}
+.navActive {
+	background: #092546;
+	color: #FFFFFF!important;
+}

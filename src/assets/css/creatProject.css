@@ -1,0 +1,108 @@
+.creatProject {
+    width: 1200px;
+    margin: 0 auto;
+    /*min-height: 760px;*/
+}
+
+.creatProject .container h4 {
+    font-size: 18px;
+    font-family: "PingFangTC-Regular";
+    color: #666666;
+    font-weight: 400;
+    line-height: 60px;
+}
+
+.firstRow {
+    font-family: "PingFangSC-Regular";
+    font-size: 12px;
+    color: #9098B8;
+    line-height: 18px;
+}
+
+.firstRow input:nth-of-type(1) {
+    width: 240px;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid #B7BBCD;
+    font-family: "PingFangSC-Regular";
+    font-size: 14px;
+    color: #B7BBCD;
+    line-height: 32px;
+    text-indent: 10px;
+    margin-right: 20px;
+}
+
+.firstRow input:nth-of-type(2) {
+    width: 80px;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid #B7BBCD;
+    font-family: "PingFangSC-Regular";
+    font-size: 14px;
+    color: #B7BBCD;
+    line-height: 32px;
+    text-indent: 10px;
+    margin-right: 20px;
+}
+
+.firstRow span {
+    margin-right: 10px;
+}
+
+.mapidleft {
+    margin-left: 20px;
+}
+
+.secondRow {
+    margin-top: 50px;
+    display: block;
+}
+.clearfloat {
+    clear: both;
+}
+.secondRow ul li {
+    float: left;
+    margin-right: 26px;
+    font-family: "PingFangTC-Regular";
+    font-size: 14px;
+    color: #12335A;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+.secondRow ul li:nth-of-type(4) {
+    margin-right: 0
+}
+
+.secondRow ul li input {
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+    transform: translateY(3px);
+}
+
+.secondRow ul li div {
+    margin-top: 10px;
+}
+
+.secondRow ul li img {
+    width: 280px;
+    height: 280px;
+}
+
+.buttonForm {
+    display: block;
+}
+.buttonForm button {
+    display: block;
+    width: 180px;
+    height: 32px;
+    background: #64B5F6;
+    border-radius: 4px;
+    float: right;
+    outline: none;
+    border: 0;
+    color: #FFFFFF;
+    margin-top: 30PX;
+    cursor: pointer;
+}
